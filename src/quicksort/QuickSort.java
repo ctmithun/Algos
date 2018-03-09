@@ -29,7 +29,7 @@ public class QuickSort {
 		int i = low-1;
 		int pi = arr[high-1];
 		for (int j = low; j < high-1; j++) {
-			if(arr[j] >= pi) {
+			if(arr[j] <= pi) {
 				i++;
 				int temp = arr[i];
 				arr[i] = arr[j];
