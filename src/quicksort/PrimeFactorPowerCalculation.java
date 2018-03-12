@@ -10,7 +10,7 @@ package quicksort;
 public class PrimeFactorPowerCalculation {
 	public static void main(String[] args) {
 		PrimeFactorPowerCalculation pmf = new PrimeFactorPowerCalculation();
-		int pow = pmf.calculatePrimeFactor(146, 11);
+		int pow = pmf.calculatePrimeFactor(146, 10);
 		System.out.println(pow);
 	}
 
