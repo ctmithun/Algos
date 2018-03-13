@@ -14,7 +14,7 @@ import java.util.TreeSet;
  *
  */
 public class CollectionTest {
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		List<String> ls = new ArrayList<>(32);
 		ls.add(null);
 		System.out.println(ls.get(0));
@@ -26,5 +26,9 @@ public class CollectionTest {
 		// throws NullPointerExcpetion
 		Set<String> ts = new TreeSet<>();
 		ss.add(null);
+	}*/
+	
+	public static void main(String[] args) {
+		
 	}
 }
