@@ -14,7 +14,8 @@ import java.util.List;
 public class ConcurrentExceptionExample {
 	public static void main(String[] args) throws InterruptedException {
 		ConcurrentExceptionExample ce = new ConcurrentExceptionExample();
-		ce.method2();
+//		ce.method2();
+		ce.method1();
 	}
 	
 	public void method1() {
