@@ -13,9 +13,13 @@ import java.util.List;
  */
 public class ConcurrentExceptionExample {
 	public static void main(String[] args) throws InterruptedException {
-		ConcurrentExceptionExample ce = new ConcurrentExceptionExample();
+//		ConcurrentExceptionExample ce = new ConcurrentExceptionExample();
 //		ce.method2();
-		ce.method1();
+//		ce.method1();
+		String s1 = "asd";
+		String s2 = "a";
+		String s3 = s2.concat("sd");
+		System.out.println(s3 == s2);
 	}
 	
 	public void method1() {
